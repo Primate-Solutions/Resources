@@ -248,3 +248,23 @@ Example:
                 "foo": 0
         }
 ```
+
+## Coding
+
+### git-filter-repo
+
+[Check its repository.](https://github.com/newren/git-filter-repo#how-do-i-install-it)
+
+#### Install
+
+```
+PS C:\> pipx install git-filter-repo
+```
+
+#### Example
+
+##### Attribute all commits to the given person
+
+```
+git filter-repo --name-callback "return b'moncheis'" --email-callback "return b'127621840+moncheis@users.noreply.github.com'"
+```
