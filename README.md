@@ -16,43 +16,43 @@ output of the programs.
   - [Table of contents](#table-of-contents)
   - [Windows](#windows)
     - [winget - The official Windows package manager](#winget-the-official-windows-package-manager)
-      - [Help text](#help-text)
-      - [Example](#example)
-      - [Install Python 3.11](#install-python-311)
-      - [Upgrade all packages](#upgrade-all-packages)
+      - Help text
+      - Example
+      - Install Python 3.11
+      - Upgrade all packages
     - [Chocolatey - A package manager for Windows](#chocolatey-a-package-manager-for-windows)
-      - [Example](#example)
-        - [Install Rclone](#install-rclone)
-        - [Upgrade all packages](#upgrade-all-packages)
-        - [Rescale a video while preserving aspect ratio](#rescale-a-video-while-preserving-aspect-ratio)
-        - [Reencode a video with default settings](#reencode-a-video-with-default-settings)
-        - [Convert a video format](#convert-a-video-format)
+      - Example
+        - Install Rclone
+        - Upgrade all packages
+        - Rescale a video while preserving aspect ratio
+        - Reencode a video with default settings
+        - Convert a video format
   - [Media](#media)
     - [ImageMagick - Convert, edit, or compose images](#imagemagick-convert-edit-or-compose-images)
-      - [Install](#install)
-      - [Help text](#help-text)
-      - [Example](#example)
+      - Install
+      - Help text
+      - Example
     - [youtube-dl - Download videos from YouTube and other websites](#youtube-dl-download-videos-from-youtube-and-other-websites)
-      - [Install](#install)
-      - [Help text](#help-text)
-      - [Example](#example)
+      - Install
+      - Help text
+      - Example
   - [File management](#file-management)
     - [Rclone - Sync your files to cloud storage](#rclone-sync-your-files-to-cloud-storage)
-      - [Install](#install)
-      - [Help text](#help-text)
-      - [Example](#example)
+      - Install
+      - Help text
+      - Example
   - [Terminal](#terminal)
     - [tldr - Simplified and community-driven man pages](#tldr-simplified-and-community-driven-man-pages)
-      - [Install](#install)
-      - [Example](#example)
+      - Install
+      - Example
     - [jq - A command-line JSON processor](#jq-a-command-line-json-processor)
-      - [Install](#install)
-      - [Help text](#help-text)
+      - Install
+      - Help text
   - [Coding](#coding)
     - [git-filter-repo - Quickly rewrite git repository history](#git-filter-repo-quickly-rewrite-git-repository-history)
-      - [Install](#install)
-      - [Example](#example)
-        - [Attribute all commits to the given person](#attribute-all-commits-to-the-given-person)
+      - Install
+      - Example
+        - Attribute all commits to the given person
 <!--toc:end-->
 
 ## Windows
