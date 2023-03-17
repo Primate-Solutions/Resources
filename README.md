@@ -9,9 +9,55 @@ The text I've copied and pasted from my terminal is formatted as code. The
 PowerShell prompt `PS C:\> ` is only included to distinguish my input from the
 output of the programs.
 
+## Table of contents
+
+<!--toc:start-->
+- [Resources](#resources)
+  - [Table of contents](#table-of-contents)
+  - [Windows](#windows)
+    - [winget - The official Windows package manager](#winget-the-official-windows-package-manager)
+      - [Help text](#help-text)
+      - [Example](#example)
+      - [Install Python 3.11](#install-python-311)
+      - [Upgrade all packages](#upgrade-all-packages)
+    - [Chocolatey - A package manager for Windows](#chocolatey-a-package-manager-for-windows)
+      - [Example](#example)
+        - [Install Rclone](#install-rclone)
+        - [Upgrade all packages](#upgrade-all-packages)
+        - [Rescale a video while preserving aspect ratio](#rescale-a-video-while-preserving-aspect-ratio)
+        - [Reencode a video with default settings](#reencode-a-video-with-default-settings)
+        - [Convert a video format](#convert-a-video-format)
+  - [Media](#media)
+    - [ImageMagick - Convert, edit, or compose images](#imagemagick-convert-edit-or-compose-images)
+      - [Install](#install)
+      - [Help text](#help-text)
+      - [Example](#example)
+    - [youtube-dl - Download videos from YouTube and other websites](#youtube-dl-download-videos-from-youtube-and-other-websites)
+      - [Install](#install)
+      - [Help text](#help-text)
+      - [Example](#example)
+  - [File management](#file-management)
+    - [Rclone - Sync your files to cloud storage](#rclone-sync-your-files-to-cloud-storage)
+      - [Install](#install)
+      - [Help text](#help-text)
+      - [Example](#example)
+  - [Terminal](#terminal)
+    - [tldr - Simplified and community-driven man pages](#tldr-simplified-and-community-driven-man-pages)
+      - [Install](#install)
+      - [Example](#example)
+    - [jq - A command-line JSON processor](#jq-a-command-line-json-processor)
+      - [Install](#install)
+      - [Help text](#help-text)
+  - [Coding](#coding)
+    - [git-filter-repo - Quickly rewrite git repository history](#git-filter-repo-quickly-rewrite-git-repository-history)
+      - [Install](#install)
+      - [Example](#example)
+        - [Attribute all commits to the given person](#attribute-all-commits-to-the-given-person)
+<!--toc:end-->
+
 ## Windows
 
-### winget - Windows Package Manager
+### winget - The official Windows package manager
 
 [Check its documentation.](https://learn.microsoft.com/en-us/windows/package-manager/)
 
@@ -41,7 +87,7 @@ PS C:\> winget install Python.Python.3.11
 PS C:\> winget upgrade --all
 ```
 
-### Chocolatey - The Package Manager for Windows
+### Chocolatey - A package manager for Windows
 
 Chocolatey is an alternative to winget with a bigger software repository.
 
@@ -81,7 +127,7 @@ PS C:\> ffmpeg -i original.mp4 converted.webm
 
 ## Media
 
-### ImageMagick
+### ImageMagick - Convert, edit, or compose images
 
 [Check its website.](https://imagemagick.org/index.php)
 
@@ -107,7 +153,7 @@ Help text: magick.exe [ {option} | {image} ... ] {output_image}
 PS C:\> magick some-gif.gif -scale 50% some-gif-scaled.gif
 ```
 
-### youtube-dl
+### youtube-dl - Download videos from YouTube and other websites
 
 [Check its website.](https://youtube-dl.org/)
 
@@ -132,7 +178,7 @@ PS C:\> youtube-dl https://twitter.com/melchizedek420/status/1602505751079145473
 
 ## File management
 
-### Rclone
+### Rclone - Sync your files to cloud storage
 
 [Check its website.](https://rclone.org/)
 
@@ -170,7 +216,7 @@ PS C:\> rclone sync Pictures gdrive:Pictures --progress
 
 ## Terminal
 
-### tldr
+### tldr - Simplified and community-driven man pages
 
 [Check its website.](https://tldr.sh/)
 
@@ -215,9 +261,7 @@ PS C:\> tldr 7z
     7z i
 ```
 
-### jq
-
-A command-line JSON processor.
+### jq - A command-line JSON processor
 
 [Check its website.](https://stedolan.github.io/jq/)
 
@@ -251,7 +295,7 @@ Example:
 
 ## Coding
 
-### git-filter-repo
+### git-filter-repo - Quickly rewrite git repository history
 
 [Check its repository.](https://github.com/newren/git-filter-repo#how-do-i-install-it)
 
