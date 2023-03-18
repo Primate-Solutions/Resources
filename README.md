@@ -13,7 +13,7 @@ output of the programs.
 
 ### winget - The official Windows package manager
 
-[Check its documentation.](https://learn.microsoft.com/en-us/windows/package-manager/)
+[Check the documentation.](https://learn.microsoft.com/en-us/windows/package-manager/)
 
 #### Help text
 
@@ -45,7 +45,7 @@ PS C:\> winget upgrade --all
 
 Chocolatey is an alternative to winget with a bigger software repository.
 
-[Check its website.](https://chocolatey.org/)
+[Check the website.](https://chocolatey.org/)
 
 #### Example
 
@@ -65,7 +65,7 @@ PS C:\> choco upgrade all
 
 ### FFMpeg - Record, convert and stream audio and video
 
-[Check its website.](https://ffmpeg.org/)
+[Check the website.](https://ffmpeg.org/)
 
 #### Install
 
@@ -95,7 +95,7 @@ PS C:\> ffmpeg -i original.mp4 converted.webm
 
 ### ImageMagick - Convert, edit, or compose images
 
-[Check its website.](https://imagemagick.org/index.php)
+[Check the website.](https://imagemagick.org/index.php)
 
 #### Install
 
@@ -115,13 +115,21 @@ Help text: magick.exe [ {option} | {image} ... ] {output_image}
 
 #### Example
 
+##### Scale an image
+
 ```
 PS C:\> magick some-gif.gif -scale 50% some-gif-scaled.gif
 ```
 
+#### Convert the format of an image
+
+```
+PS C:\> magick apu.png apu.jpg
+```
+
 ### youtube-dl - Download videos from YouTube and other websites
 
-[Check its website.](https://youtube-dl.org/)
+[Check the website.](https://youtube-dl.org/)
 
 #### Install
 
@@ -146,7 +154,7 @@ PS C:\> youtube-dl https://twitter.com/melchizedek420/status/1602505751079145473
 
 ### Rclone - Sync your files to cloud storage
 
-[Check its website.](https://rclone.org/)
+[Check the website.](https://rclone.org/)
 
 #### Install
 
@@ -184,7 +192,7 @@ PS C:\> rclone sync Pictures gdrive:Pictures --progress
 
 ### tldr - Simplified and community-driven man pages
 
-[Check its website.](https://tldr.sh/)
+[Check the website.](https://tldr.sh/)
 
 #### Install
 
@@ -229,7 +237,7 @@ PS C:\> tldr 7z
 
 ### jq - A command-line JSON processor
 
-[Check its website.](https://stedolan.github.io/jq/)
+[Check the website.](https://stedolan.github.io/jq/)
 
 #### Install
 
@@ -263,7 +271,7 @@ Example:
 
 ### git-filter-repo - Quickly rewrite git repository history
 
-[Check its repository.](https://github.com/newren/git-filter-repo#how-do-i-install-it)
+[Check the repository.](https://github.com/newren/git-filter-repo#how-do-i-install-it)
 
 #### Install
 
