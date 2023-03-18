@@ -9,55 +9,6 @@ The text I've copied and pasted from my terminal is formatted as code. The
 PowerShell prompt `PS C:\> ` is only included to distinguish my input from the
 output of the programs.
 
-## Table of contents
-
-<!--toc:start-->
-- [Resources](#resources)
-  - [Table of contents](#table-of-contents)
-  - [Windows](#windows)
-    - [winget - The official Windows package manager](#winget-the-official-windows-package-manager)
-      - Help text
-      - Example
-      - [Install Python 3.11](#install-python-311)
-      - Upgrade all packages
-    - [Chocolatey - A package manager for Windows](#chocolatey-a-package-manager-for-windows)
-      - Example
-        - [Install LICEcap](#install-licecap)
-        - Upgrade all packages
-  - [Media](#media)
-    - [FFMpeg - Record, convert and stream audio and video](#ffmpeg-record-convert-and-stream-audio-and-video)
-      - Install
-      - Example
-        - [Rescale a video while preserving aspect ratio](#rescale-a-video-while-preserving-the-aspect-ratio)
-        - [Reencode a video with default settings](#reencode-a-video-with-the-default-settings)
-        - [Convert a video format](#convert-the-format-of-a-video)
-    - [ImageMagick - Convert, edit, or compose images](#imagemagick-convert-edit-or-compose-images)
-      - Install
-      - Help text
-      - Example
-    - [youtube-dl - Download videos from YouTube and other websites](#youtube-dl-download-videos-from-youtube-and-other-websites)
-      - Install
-      - Help text
-      - Example
-  - [File management](#file-management)
-    - [Rclone - Sync your files to cloud storage](#rclone-sync-your-files-to-cloud-storage)
-      - Install
-      - Help text
-      - Example
-  - [Terminal](#terminal)
-    - [tldr - Simplified and community-driven man pages](#tldr-simplified-and-community-driven-man-pages)
-      - Install
-      - Example
-    - [jq - A command-line JSON processor](#jq-a-command-line-json-processor)
-      - Install
-      - Help text
-  - [Coding](#coding)
-    - [git-filter-repo - Quickly rewrite git repository history](#git-filter-repo-quickly-rewrite-git-repository-history)
-      - Install
-      - Example
-        - [Attribute all commits to the given person](#attribute-all-commits-to-the-given-person)
-<!--toc:end-->
-
 ## Windows
 
 ### winget - The official Windows package manager
