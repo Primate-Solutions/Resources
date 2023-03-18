@@ -18,16 +18,19 @@ output of the programs.
     - [winget - The official Windows package manager](#winget-the-official-windows-package-manager)
       - Help text
       - Example
-      - Install Python 3.11
+      - [Install Python 3.11](#install-python-311)
       - Upgrade all packages
     - [Chocolatey - A package manager for Windows](#chocolatey-a-package-manager-for-windows)
       - Example
-        - Install Rclone
+        - [Install LICEcap](#install-licecap)
         - Upgrade all packages
-        - Rescale a video while preserving aspect ratio
-        - Reencode a video with default settings
-        - Convert a video format
   - [Media](#media)
+    - [FFMpeg - Record, convert and stream audio and video](#ffmpeg-record-convert-and-stream-audio-and-video)
+      - Install
+      - Example
+        - [Rescale a video while preserving aspect ratio](#rescale-a-video-while-preserving-the-aspect-ratio)
+        - [Reencode a video with default settings](#reencode-a-video-with-the-default-settings)
+        - [Convert a video format](#convert-the-format-of-a-video)
     - [ImageMagick - Convert, edit, or compose images](#imagemagick-convert-edit-or-compose-images)
       - Install
       - Help text
@@ -52,7 +55,7 @@ output of the programs.
     - [git-filter-repo - Quickly rewrite git repository history](#git-filter-repo-quickly-rewrite-git-repository-history)
       - Install
       - Example
-        - Attribute all commits to the given person
+        - [Attribute all commits to the given person](#attribute-all-commits-to-the-given-person)
 <!--toc:end-->
 
 ## Windows
@@ -95,7 +98,7 @@ Chocolatey is an alternative to winget with a bigger software repository.
 
 #### Example
 
-##### Install Rclone
+##### Install LICEcap
 
 ```
 PS C:\> choco install licecap
@@ -107,25 +110,37 @@ PS C:\> choco install licecap
 PS C:\> choco upgrade all
 ```
 
-##### Rescale a video while preserving aspect ratio
+## Media
+
+### FFMpeg - Record, convert and stream audio and video
+
+[Check its website.](https://ffmpeg.org/)
+
+#### Install
+
+```
+PS C:\> choco install ffmpeg
+```
+
+#### Example
+
+##### Rescale a video while preserving the aspect ratio
 
 ```
 PS C:\> ffmpeg -i original.mp4 -vf scale=-1:720 scaled.mp4
 ```
 
-##### Reencode a video with default settings
+##### Reencode a video with the default settings
 
 ```
 PS C:\> ffmpeg -i original.mp4 reencoded.mp4
 ```
 
-##### Convert a video format
+##### Convert the format of a video
 
 ```
 PS C:\> ffmpeg -i original.mp4 converted.webm
 ```
-
-## Media
 
 ### ImageMagick - Convert, edit, or compose images
 
